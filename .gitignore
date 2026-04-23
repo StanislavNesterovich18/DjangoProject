@@ -1,6 +1,9 @@
-.idea
-.venv
 __pycache__
-env/
 sqlite3/
 sqlite/
+.idea
+.env
+*.lock
+.venv
+env/
+venv/
