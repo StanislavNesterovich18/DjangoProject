@@ -3,6 +3,7 @@ from django.db import models
 
 class Category(models.Model):
     """Создание модели Category"""
+
     name = models.CharField(max_length=100, verbose_name="Наименование")
     description = models.TextField(verbose_name="Описание", blank=True)
 
@@ -16,6 +17,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     """Создание модели Product"""
+
     name = models.CharField(max_length=100, verbose_name="Наименование")
     description = models.TextField(verbose_name="Описание", blank=True)
     price = models.FloatField(default=0, verbose_name="Цена за покупку")
