@@ -5,6 +5,7 @@ from config.settings import BAN_WORDS
 
 
 class ProductForm(ModelForm):
+    """Костамизация/стилизация формы и валидация полей"""
     class Meta:
         model = Product
         fields = "name", "description", "price", "image", "category"
