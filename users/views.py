@@ -24,24 +24,24 @@ class UserRegistration(CreateView):
     def form_valid(self, form):
         user = form.save()
         user.is_active = False
-        user.token =secrets.token_hex(16)
+        user.token = secrets.token_hex(16)
         user.save()
-        #Отправка на почту
+        # Отправка на почту
         host = self.request.get_host()
         url = f"http://{host}/user/email_validation/{user.token}/"
-        send_mail(subject="Email Validation",
-                  message=f"Подтвердите почту, перейдя по ссылке: {url}",
-                  from_email=EMAIL_HOST_USER,
-                  recipient_list=[user.email])
+        send_mail(
+            subject="Email Validation",
+            message=f"Подтвердите почту, перейдя по ссылке: {url}",
+            from_email=EMAIL_HOST_USER,
+            recipient_list=[user.email],
+        )
         return super(UserRegistration, self).form_valid(form)
+
 
 def token_valid(request, token):
     user = User.objects.filter(token=token)
     if user.exists():
-        user=user[0]
+        user = user[0]
         user.is_active = True
         user.save()
     return redirect(reverse("catalog:home"))
-
-
-

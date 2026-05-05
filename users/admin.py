@@ -8,5 +8,3 @@ class UserAdmin(admin.ModelAdmin):
     """Настройки интерфейса администрирования для модели User"""
 
     list_display = ("id", "email")
-
-

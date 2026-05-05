@@ -3,6 +3,7 @@ from django.db import models
 
 class Blog(models.Model):
     """Создание модели страницы"""
+
     title = models.CharField(max_length=100, verbose_name="Заголовок")
     content = models.TextField(verbose_name="Cодержимое", blank=True, null=True)
     preview = models.ImageField(upload_to="blog/image/", blank=True, null=True, verbose_name="Изображение")
