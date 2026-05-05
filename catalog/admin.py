@@ -6,6 +6,7 @@ from catalog.models import Category, Product
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     """Настройки интерфейса администрирования для модели Product"""
+
     list_display = ("id", "name", "price", "category")
     list_filter = ("category",)
     search_fields = (
@@ -17,6 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     """Настройки интерфейса администрирования для модели Category"""
+
     list_display = (
         "id",
         "name",

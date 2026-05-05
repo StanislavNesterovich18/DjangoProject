@@ -6,6 +6,7 @@ from catalog.models import Category, Product
 
 class Command(BaseCommand):
     """Добавление фикстур в json файл"""
+
     help = "Добавление фикстур"
 
     def handle(self, *args, **kwargs):

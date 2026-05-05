@@ -1,0 +1,30 @@
+{% extends 'header.html' %}
+{% block content %}
+<body>
+
+<div class="container">
+    {% include 'menu.html' %}
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Skystore</h1>
+        <p class="lead">Skystore - это отличный вариант хранения ваших плагинов и примеров кода, который вы бы хотели
+            продать</p>
+    </div>
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static"><strong
+                class="d-inline-block mb-2 text-primary-emphasis">Продукт</strong>
+            <h3 class="mb-0">{{ product.name }}</h3>
+            <p class="card-text mb-auto">{{ product.description }}</p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img src="/media/{{ product.image }}" width="240px"/>
+        </div>
+    </div>
+    <a href="{% url 'catalog:home' %}" class="icon-link gap-1 icon-link-hover stretched-link">Назад</a>
+
+    {% include 'footer.html' %}
+
+</div>
+
+</body>
+{% endblock %}
