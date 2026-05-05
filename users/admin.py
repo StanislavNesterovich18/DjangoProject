@@ -1,3 +1,12 @@
 from django.contrib import admin
 
-# Register your models here.
+from users.models import User
+
+
+@admin.register(User)
+class UserAdmin(admin.ModelAdmin):
+    """Настройки интерфейса администрирования для модели User"""
+
+    list_display = ("id", "email")
+
+

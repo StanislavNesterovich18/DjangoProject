@@ -25,10 +25,14 @@
                     </ul>
                     <a href="{% url 'catalog:product_detail_view' product.pk %}"
                        class="btn btn-lg btn-block btn-outline-primary">Подробнее</a>
+                    {% if product.owner == user %}
                     <a href="{% url 'catalog:product_update_view' product.pk %}"
                        class="btn btn-lg btn-block btn-outline-primary">Обновить</a>
+                    {% endif %}
+                    {% if product.owner == user or perms.catalog.delete_product %}
                     <a href="{% url 'catalog:product_delete_view' product.pk %}"
                        class="btn btn-lg btn-block btn-outline-primary">Удалить</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
