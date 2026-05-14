@@ -22,8 +22,6 @@
                     <img src="/media/{{ product.image }}" width="220px"/>
                     <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                         <li>- {{ product.description|truncatechars:100 }}</li>
-                        <li>- <a href="{% url 'catalog:products_category' product.category.pk %}"
-                       class="">{{ product.category }}</a></li>
                     </ul>
                     <a href="{% url 'catalog:product_detail_view' product.pk %}"
                        class="btn btn-lg btn-block btn-outline-primary">Подробнее</a>
