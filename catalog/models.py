@@ -1,5 +1,7 @@
 from django.db import models
 
+from users.models import User
+
 
 class Category(models.Model):
     """Создание модели Category"""
@@ -27,6 +29,8 @@ class Product(models.Model):
     category = models.ForeignKey(
         Category, on_delete=models.CASCADE, related_name="list_products", verbose_name="Категория"
     )
+    owner = models.ForeignKey(User, null=True, on_delete=models.CASCADE, verbose_name="Владелец")
+    is_publish = models.BooleanField(default=False, verbose_name="Публикация")
 
     def __str__(self):
         return self.name
@@ -34,3 +38,4 @@ class Product(models.Model):
     class Meta:
         verbose_name = "Продукт"
         verbose_name_plural = "Продукты"
+        permissions = [("can_unpublish_product","Права на отмену публикации")]

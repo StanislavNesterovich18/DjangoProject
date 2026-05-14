@@ -1,5 +1,187 @@
 [
   {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-05-05T15:35:10.733Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "1",
+      "object_repr": "Модератор продуктов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-05-05T15:37:01.880Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "1",
+      "object_repr": "Модератор продуктов",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-05-05T15:39:32.252Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "<None ivan-don4encko@ya.ru>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-05-05T15:43:21.674Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "<None ivan-don4encko@ya.ru>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-05-05T15:47:13.944Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "<None ivan-don4encko@ya.ru>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-05-05T15:47:55.417Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-05-05T15:48:02.977Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-05-05T15:58:03.031Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "<None ivan-don4encko@ya.ru>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2026-05-05T16:51:59.552Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "<None ivan-don4encko@ya.ru>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2026-05-05T16:52:53.552Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2026-05-05T17:04:49.551Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2026-05-05T17:04:52.279Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "dfbdfbdf",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2026-05-05T17:04:55.653Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2026-05-05T17:07:28.735Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "dfbdfbdf",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -324,6 +506,26 @@
     }
   },
   {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Права на отмену публикации",
+      "content_type": 7,
+      "codename": "can_unpublish_product"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Модератор продуктов",
+      "permissions": [
+        37,
+        27
+      ]
+    }
+  },
+  {
     "model": "contenttypes.contenttype",
     "pk": 1,
     "fields": {
@@ -397,10 +599,18 @@
   },
   {
     "model": "sessions.session",
-    "pk": "f11zrgjupe8f08ljofdiqi5skwfzvuki",
+    "pk": "4c6xk3vr3gnw01zm6l4jinn6wx3v7b0s",
     "fields": {
-      "session_data": ".eJxVjDsOwjAQBe_iGln-EduU9DmDtdn14gCypTipEHeHSCmgfTPzXiLBtpa09bykmcRFaHH63SbAR647oDvUW5PY6rrMk9wVedAux0b5eT3cv4MCvXxrQD1kJmsmjmCZiM8qeAVGhxh9NMEiU9SerLPBeeYwkEPlYgbMbLV4fwD6IjhN:1wInWS:842bfiZMhO1Sh6nc0zK7CcPXXFaAJgEQa4wskpeAhkI",
-      "expire_date": "2026-05-15T13:03:12.213Z"
+      "session_data": ".eJxVjDsOwjAQBe_iGln-EduU9DmDtdn14gCypTipEHeHSCmgfTPzXiLBtpa09bykmcRFaHH63SbAR647oDvUW5PY6rrMk9wVedAux0b5eT3cv4MCvXxrQD1kJmsmjmCZiM8qeAVGhxh9NMEiU9SerLPBeeYwkEPlYgbMbLV4fwD6IjhN:1wKHyY:ouwvVVQedHsFLEN_9vNt-wCsyS7lLaDARaFSUOTqsys",
+      "expire_date": "2026-05-19T15:46:22.788Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "yugupx9avtzmjh9jkgec8bzsodjvgezn",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-EduU9DmDtdn14gCypTipEHeHSCmgfTPzXiLBtpa09bykmcRFaHH63SbAR647oDvUW5PY6rrMk9wVedAux0b5eT3cv4MCvXxrQD1kJmsmjmCZiM8qeAVGhxh9NMEiU9SerLPBeeYwkEPlYgbMbLV4fwD6IjhN:1wKJFT:it5HG-b3WUNzFPz_BtlgnnrKrgW1nB3CU_punUilPZY",
+      "expire_date": "2026-05-19T17:07:55.890Z"
     }
   },
   {
@@ -428,33 +638,40 @@
       "price": 1.0,
       "image": "product/image/orig.jfif",
       "created_at": "2026-05-01T13:01:22.802Z",
-      "updated_at": "2026-05-01T13:01:22.802Z",
-      "category": 1
+      "updated_at": "2026-05-05T17:04:55.652Z",
+      "category": 1,
+      "owner": 1,
+      "is_publish": true
     }
   },
   {
     "model": "catalog.product",
-    "pk": 2,
+    "pk": 3,
     "fields": {
-      "name": "Фсо вспышки Сверхяркие",
-      "description": "123332",
-      "price": 12333.0,
-      "image": "product/image/стим_скрудж.jpg",
-      "created_at": "2026-05-01T13:03:39.818Z",
-      "updated_at": "2026-05-01T13:03:39.818Z",
-      "category": 2
+      "name": "Фсо вспышки Сверхяркие MAX противотуманные фары",
+      "description": "Противотуманные фары на приору",
+      "price": 1200.0,
+      "image": "product/image/стим_скрудж_80qyUsY.jpg",
+      "created_at": "2026-05-03T19:26:46.976Z",
+      "updated_at": "2026-05-05T17:04:49.550Z",
+      "category": 1,
+      "owner": 1,
+      "is_publish": true
     }
   },
   {
-    "model": "blog.blog",
-    "pk": 1,
+    "model": "catalog.product",
+    "pk": 4,
     "fields": {
-      "title": "312312",
-      "content": "123312",
-      "preview": "blog/image/b9e8a3c1-b9b0-4861-9867-b772abaf1a68.jpg",
-      "created_at": "2026-05-01T13:03:52.428Z",
-      "is_publish": true,
-      "count_views": 0
+      "name": "dfbdfbdf",
+      "description": "dqsdcasw",
+      "price": 11212.0,
+      "image": "product/image/pm-6-omnjtrjzizg.png",
+      "created_at": "2026-05-05T17:01:22.674Z",
+      "updated_at": "2026-05-05T17:07:28.734Z",
+      "category": 2,
+      "owner": 1,
+      "is_publish": true
     }
   },
   {
@@ -470,15 +687,39 @@
     }
   },
   {
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+      "title": "Гринго",
+      "content": "Шпинго",
+      "preview": "blog/image/бык-против-символа-медведя-тенденции-фондового-рынка-на-белом-фоне-178326355.jpg",
+      "created_at": "2026-05-03T19:04:52.532Z",
+      "is_publish": true,
+      "count_views": 1
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "Test",
+      "content": "цуакипмцуким",
+      "preview": "blog/image/b9e8a3c1-b9b0-4861-9867-b772abaf1a68_f5R8a4O.jpg",
+      "created_at": "2026-05-03T19:09:46.716Z",
+      "is_publish": true,
+      "count_views": 0
+    }
+  },
+  {
     "model": "users.user",
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$1200000$IFqVYxxtzjHN0UlGOmuayY$8tKqR1+yjDoqaH+cFXuGZBcmI1sGf1TEWHuyR6sYe+k=",
-      "last_login": "2026-05-01T13:03:12.212Z",
-      "is_superuser": false,
+      "last_login": "2026-05-05T17:07:55.888Z",
+      "is_superuser": true,
       "first_name": "",
       "last_name": "",
-      "is_staff": false,
+      "is_staff": true,
       "is_active": true,
       "date_joined": "2026-05-01T12:21:14.113Z",
       "avatar": "",
@@ -494,14 +735,14 @@
     "model": "users.user",
     "pk": 3,
     "fields": {
-      "password": "pbkdf2_sha256$1200000$XlkS422UGJlZcGp1CoRhxI$2MQsVYvtCmJV8ppNEMzscW4ql5aeB6JR3R3MscLYjvA=",
-      "last_login": null,
+      "password": "pbkdf2_sha256$1200000$IFqVYxxtzjHN0UlGOmuayY$8tKqR1+yjDoqaH+cFXuGZBcmI1sGf1TEWHuyR6sYe+k=",
+      "last_login": "2026-05-05T17:07:44.315Z",
       "is_superuser": false,
       "first_name": "",
       "last_name": "",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2026-05-01T12:54:40.399Z",
+      "date_joined": "2026-05-01T12:54:40Z",
       "avatar": "",
       "numbers_phone": null,
       "city": null,
